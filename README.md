@@ -1,6 +1,11 @@
 # Linear_algebra2020
 RIP linear algebra
 
+note: mat_inv.py has some issue, dont use it as of now. Prefer inverse_row_operation.py for some time. I will be updating some
+any other person is also welcome to troubleshot and change
+
+DO NOT FORGET TO FORK FIRST
+
 Gauss-Seidel iteration calculator
 
 instructions:
