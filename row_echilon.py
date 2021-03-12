@@ -2,11 +2,11 @@
 # input your values in the below 4 lines   use the constants in front of each equation
 # if a constant is not mentioned ( that is it is zero for a variable mention zero and don't skip it)
 # if the values obtained are in fraction truncate the values to the required decimal places on your own.
-x1,y1,z1 = map(float,input("enter the first row elements").split())
-x2,y2,z2 = map(float,input("enter the second rew elements").split())
-x3,y3,z3 = map(float,input("enter the third row elements").split())
+x1,y1,z1 = map(float,input("enter the first row elements:").split())
+x2,y2,z2 = map(float,input("enter the second rew elements:").split())
+x3,y3,z3 = map(float,input("enter the third row elements:").split())
 
-a1,a2,a3 =  map(float,input("enter the values of answer column").split())
+a1,a2,a3 =  map(float,input("enter the values of answer column:").split())
 if x1==0:#checking whether the first row has the first element zero or not.
     x1, x2 = x2, x1# swapping the first row with the second row.
     z1, z2 = z2, z1
