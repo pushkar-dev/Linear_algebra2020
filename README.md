@@ -16,5 +16,11 @@ instructions:
 
 suggestion: please rearrange and find expressions on paper for equation and then input
 
+Inverse by Row Operation(inverse_row_operation.py) Instructions:
+
+1. Input format is well defined when you run the program, use space seperated values whenever asked to do so
+
+In row_echolion.py input is always 3 space seperated integers in context of the prompted text
+
 if you insert a new file or edit an existing one, pls update the input format and precautions if any
 :)
