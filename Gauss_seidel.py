@@ -1,5 +1,4 @@
 '''
-
 Author-Pushkar Patel
 Email-pushkar.umrao@gmail.com
 
@@ -23,18 +22,14 @@ fy=input('Enter Expression for y:')
 fz=input('Enter Expression for z:')
 #p=10*prec
 
-rnd=lambda v:round(v,prec)
+def fmt(float_var):
+    fmtstr=f'.{prec}f'
+    return(format(float_var,fmtstr))
 
-def tc(x,y,z):
-    return (rnd(x),rnd(y),rnd(z))
 def iterate():
-    global x
-    global y
-    global z
     x=eval(fx)
     y=eval(fy)
     z=eval(fz)
-
 
 i=1
 ctr=None
@@ -43,7 +38,7 @@ print('i |x      |y     |z     |')
 print('_'*30)
 while True :
     iterate()
-    print(f'{i} |{round(x,prec)} |{round(y,prec)} |{round(z,prec)} |')
+    print(f'{i} |{fmt(x)} |{fmt(y)} |{fmt(z)} |')
     print('_'*30,':c-Continue e-Exit:',end=' ')
     i+=1
     ctr=input()
